@@ -1,0 +1,17 @@
+body {
+    background-image: url("flower.jfif") ;
+  }
+  h1, h2, {
+    border-bottom: 1px solid gray;
+    margin:20px;
+  }
+
+ h3 {margin: 20px}
+
+.image, p{
+    margin: 20px;
+}
+
+.location-details,.location-wildlife,.location-trivia {
+    background-color: beige;
+}
