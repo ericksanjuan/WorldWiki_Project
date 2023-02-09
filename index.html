@@ -26,7 +26,7 @@
 
     <p id="description">  
       <!-- 3. Write up a short, single paragraph description for your world. -->
-      Desolation takes place in 1352 in a world that has been devastated by a massive outbreak of the bubonic plague. They were once great cities that have been left devastation and rot. The last remaining survivors have organized communities to survive and live off of what is left in the world.
+      Desolation takes place in 1352 in a world that has been devastated by a massive outbreak of the bubonic plague. They were once great cities that have been left to decay. The last remaining survivors have organized communities to survive and live off of what is left in the world.
     </p>
   </header>
 
@@ -79,7 +79,7 @@
   </section>
 
   <section id="contact">
-    <h2>Contact ________</h2>
+    <h2>Contact a Plague Doctor</h2>
 
     <!-- 
       9. Create a contact form, with at least 4 fields, for others to contact some entity in your world.
@@ -88,11 +88,30 @@
 
       10. Fill in the heading of this section with something appropriate.
     -->
-  </section>
+
+    <form>
+      <label for="symptomatic">Check this box if you are symptomatic?</label>
+      <input type="checkbox" id="symptomatic" name="symptomatic"><br>
+      
+      <label for="cars">What is your location?</label>
+      <select name="cars" id="cars">
+        <option value="volvo">London</option>
+        <option value="saab">Paris</option>
+        <option value="opel">Brussels</option>
+        <option value="audi">Other</option>
+      </select><br>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br> 
+
+      <input type="submit" value="Submit">
+    </form>
+  </section><br>
 
   <footer>
     <!-- 11. Finally, make up a company that owns the copyright for this world.  -->
-    &copy; 2022 ___________
+    &copy; 2022 C&E Inc.
   </footer>
 </body>
 </html>
