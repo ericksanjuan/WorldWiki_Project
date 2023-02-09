@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="nav-bar.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
   <!-- Feel free to change this title once you have your world name figured out. -->
   <title>Desolation</title>
 </head>
@@ -47,6 +48,7 @@
       <!-- 3. Write up a short, single paragraph description for your world. -->
       Desolation takes place in 1352 in a world that has been devastated by a massive outbreak of the bubonic plague. All of the once great cities have been left to complete and utter havoc and destruction. The last remaining survivors have organized communities to survive and live off of what is left in the world.
     </p>
+    <img src="map.jpg" height="250px" width="500px">
   </header>
 
   <section id="locations">
@@ -99,6 +101,8 @@
 
   <section id="contact">
     <h2>Contact a Plague Doctor</h2>
+    <img src="plague doctor.png" height="150px"></img>
+    
 
     <!-- 
       9. Create a contact form, with at least 4 fields, for others to contact some entity in your world.
@@ -110,19 +114,18 @@
 
     <form>
       <label for="symptomatic">Check this box if you are symptomatic?</label>
-      <input type="checkbox" id="symptomatic" name="symptomatic"><br>
+      <input type="checkbox" id="symptomatic" name="symptomatic"><br><br>
       
-      <label for="cars">What is your location?</label>
-      <select name="cars" id="cars">
-        <option value="volvo">London</option>
-        <option value="saab">Paris</option>
-        <option value="opel">Brussels</option>
-        <option value="audi">Other</option>
-      </select><br>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br> 
+      <label for="location">What is your location?</label>
+      <select name="location" id="location">
+        <option value="london"></option>
+        <option value="london">London</option>
+        <option value="paris">Paris</option>
+        <option value="brussels">Brussels</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      <input type="text" id="fname" name="fname" placeholder="First name"><br>
+      <input type="text" id="lname" name="lname" placeholder="Last name"><br> 
 
       <input type="submit" value="Submit">
     </form>
